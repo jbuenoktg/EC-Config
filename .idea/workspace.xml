@@ -5,23 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3666082e-7014-483f-91c1-92e4ecb05d18" name="Changes" comment="Creating incomes module">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../incomes/src/main/java/com/jbueno/incomes/controller/IncomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../incomes/src/main/java/com/jbueno/incomes/entities/Income.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../incomes/src/main/java/com/jbueno/incomes/repository/IncomeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessDomain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessDomain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfrastructureDomain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/InfrastructureDomain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../incomes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../incomes/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../incomes" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2csqPINigJsqcezDkYhjUKCbnHW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,11 +50,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/JetBrainsProjects/JavaProjects/BillsControlProject/incomes/pom.xml",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/JetBrainsProjects/JavaProjects/ExpensesControlProject/ExpensesControlConfig/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,6 +81,7 @@
                 <option value="install" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
@@ -95,6 +117,13 @@
       <item itemvalue="Spring Boot.WalletApplication" />
     </list>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +132,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708910609795</updated>
-      <workItem from="1708910610876" duration="5470000" />
+      <workItem from="1708910610876" duration="7032000" />
+      <workItem from="1709489331649" duration="2141000" />
+      <workItem from="1709504177354" duration="3441000" />
     </task>
     <task id="LOCAL-00001" summary="Adding common configurations for BillsControl project">
       <option name="closed" value="true" />
@@ -129,11 +160,30 @@
       <option name="project" value="LOCAL" />
       <updated>1708917295462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating incomes module">
+      <option name="closed" value="true" />
+      <created>1708917414288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708917414288</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding common configurations for BillsControl project" />
